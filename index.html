@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Soluções digitais RayaConnect: Timaço, Rua Digital, AutoRep, CRM e desenvolvimento de aplicativos sob medida.">
+  <title>RayaConnect | Soluções Digitais</title>
+  <style>
+    :root{--bg:#070b14;--text:#f7f9ff;--muted:#aeb8d0;--line:rgba(255,255,255,.08);--accent:#6ee7ff;--accent2:#7c5cff;--success:#55d38a;--shadow:0 24px 80px rgba(0,0,0,.35);--radius:24px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--text);background:radial-gradient(circle at 15% 0%,rgba(124,92,255,.25),transparent 32%),radial-gradient(circle at 90% 10%,rgba(110,231,255,.18),transparent 28%),linear-gradient(160deg,#080b12 0%,#0c1326 55%,#090c16 100%);line-height:1.55}
+    a{color:inherit}button,input,textarea{font:inherit}button{cursor:pointer}.shell{width:min(760px,calc(100% - 28px));margin:0 auto;padding:34px 0 48px}.hero{text-align:center;padding:18px 8px 28px}.brand-mark{width:74px;height:74px;margin:0 auto 18px;display:grid;place-items:center;border-radius:22px;background:linear-gradient(135deg,var(--accent2),var(--accent));color:#06101f;font-weight:900;font-size:27px;letter-spacing:-1.5px;box-shadow:0 18px 48px rgba(89,105,255,.36)}
+    h1{margin:0;font-size:clamp(28px,6vw,44px);letter-spacing:-1.5px}.hero p{margin:10px auto 0;max-width:620px;color:var(--muted);font-size:15.5px}.grid{display:grid;gap:14px}.link-card,.section-card,.form-card{border:1px solid var(--line);background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.025));backdrop-filter:blur(12px);box-shadow:var(--shadow);border-radius:var(--radius)}
+    .link-card{display:flex;align-items:center;gap:14px;padding:17px;text-decoration:none;transition:.2s}.link-card:hover{transform:translateY(-2px);border-color:rgba(110,231,255,.3);background:rgba(255,255,255,.065)}.icon{width:48px;height:48px;border-radius:16px;display:grid;place-items:center;flex:0 0 auto;background:rgba(110,231,255,.1);border:1px solid rgba(110,231,255,.14);font-size:23px}.link-copy{flex:1;min-width:0}.link-copy strong{display:block;font-size:17px}.link-copy span{display:block;margin-top:3px;color:var(--muted);font-size:13.5px}.arrow{color:var(--muted);font-size:22px}
+    .view{display:none}.view.active{display:block}.topbar{display:flex;align-items:center;gap:12px;margin-bottom:16px}.back{border:1px solid var(--line);background:rgba(255,255,255,.05);color:var(--text);border-radius:14px;padding:10px 13px}.topbar h2{margin:0;font-size:23px}.section-card,.form-card{padding:20px;margin-bottom:14px}.section-card h3{margin:0 0 8px;font-size:18px}.section-card p{margin:0;color:var(--muted)}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.chip{padding:8px 10px;border-radius:999px;background:rgba(124,92,255,.12);border:1px solid rgba(124,92,255,.2);color:#d9d4ff;font-size:12.5px}
+    .actions{display:grid;gap:10px;margin-top:16px}.btn{border:0;border-radius:16px;padding:14px 16px;text-align:center;text-decoration:none;font-weight:800;transition:.18s}.btn:hover{transform:translateY(-1px)}.btn.primary{background:linear-gradient(135deg,var(--accent2),var(--accent));color:#08111d}.btn.secondary{background:rgba(255,255,255,.075);color:var(--text);border:1px solid var(--line)}.btn.success{background:rgba(85,211,138,.15);color:#bff4d3;border:1px solid rgba(85,211,138,.25)}.steps{margin:12px 0 0;padding-left:20px;color:var(--muted)}.steps li+li{margin-top:6px}
+    .role-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.role{border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:16px;padding:14px}.role strong{display:block;margin-bottom:5px}.role span{color:var(--muted);font-size:13px}.form-card label{display:block;margin:12px 0 6px;font-size:13px;color:#d9e1f2}.form-card input,.form-card textarea{width:100%;border:1px solid var(--line);border-radius:14px;padding:13px 14px;color:var(--text);background:rgba(0,0,0,.18);outline:none}.form-card textarea{min-height:130px;resize:vertical}.hint{margin-top:10px;color:var(--muted);font-size:12px}footer{text-align:center;color:#7f8ba6;font-size:12px;padding:28px 0 8px}@media(max-width:560px){.role-grid{grid-template-columns:1fr}.shell{width:min(100% - 20px,760px);padding-top:18px}.section-card,.form-card{padding:17px}}
+  </style>
+</head>
+<body>
+<main class="shell">
+  <section id="home" class="view active">
+    <div class="hero"><div class="brand-mark">R</div><h1>RayaConnect</h1><p>Soluções digitais para pessoas, negócios, times, campos, organizadores e empresas. Escolha abaixo onde você quer ir.</p></div>
+    <div class="grid">
+      <a class="link-card" href="#timaco" data-view="timaco"><div class="icon">⚽</div><div class="link-copy"><strong>Aplicativo Timaço</strong><span>Futebol amador, partidas, peladas, ranking, campos e campeonatos.</span></div><div class="arrow">›</div></a>
+      <a class="link-card" href="#rua-digital" data-view="rua-digital"><div class="icon">📍</div><div class="link-copy"><strong>Rua Digital</strong><span>Comércios, serviços, eventos, notícias e pessoas da sua região.</span></div><div class="arrow">›</div></a>
+      <a class="link-card" href="https://orbia.rayaconnect.com.br/autorep" target="_blank" rel="noopener"><div class="icon">🤖</div><div class="link-copy"><strong>AutoRep</strong><span>Conheça a página, veja os planos e faça seu cadastro.</span></div><div class="arrow">↗</div></a>
+      <a class="link-card" href="https://rayaconnect.com.br" target="_blank" rel="noopener"><div class="icon">📊</div><div class="link-copy"><strong>CRM RayaConnect</strong><span>Acesse o CRM e as soluções de relacionamento e gestão.</span></div><div class="arrow">↗</div></a>
+      <a class="link-card" href="#pedir-app" data-view="pedir-app"><div class="icon">📱</div><div class="link-copy"><strong>Pedir seu app</strong><span>Conte sua ideia e envie uma solicitação de aplicativo sob medida.</span></div><div class="arrow">›</div></a>
+    </div>
+  </section>
+
+  <section id="timaco" class="view">
+    <div class="topbar"><button class="back" data-view="home">← Voltar</button><h2>Aplicativo Timaço</h2></div>
+    <div class="section-card"><h3>Seu futebol organizado em um só lugar</h3><p>O Timaço conecta jogadores, times, campos e organizadores para facilitar peladas, partidas, reservas, rankings, avaliações e competições.</p><div class="chips"><span class="chip">Jogadores</span><span class="chip">Times</span><span class="chip">Campos</span><span class="chip">Organizadores</span></div></div>
+    <div class="section-card"><h3>O que cada perfil consegue fazer</h3><div class="role-grid">
+      <div class="role"><strong>👤 Jogador</strong><span>Perfil, histórico, partidas, gols, vitórias, avaliações, ranking, peladas e participação em times.</span></div>
+      <div class="role"><strong>🛡️ Time</strong><span>Elenco, desafios, partidas, escalação, súmula, resultados, destaques e organização do time.</span></div>
+      <div class="role"><strong>🏟️ Campo</strong><span>Agenda, reservas, horários, recursos do espaço, gestão de clientes e módulos conforme o porte do campo.</span></div>
+      <div class="role"><strong>🏆 Organizador</strong><span>Campeonatos, equipes, jogadores, tabelas, partidas e gestão da competição.</span></div>
+    </div></div>
+    <div class="section-card"><h3>Acessar o Timaço</h3><div class="actions"><a class="btn primary" href="https://timaco.rmix.tec.br" target="_blank" rel="noopener">Abrir página web</a></div></div>
+    <div class="section-card"><h3>Baixar a versão de teste no Android</h3><p>Para instalar pelo Google Play como testador, faça nesta ordem:</p><ol class="steps"><li>Entre no grupo de testes usando a mesma conta Google do Google Play do celular.</li><li>Depois de entrar no grupo, abra o link da Play Store.</li><li>Toque em <strong>Instalar</strong> ou <strong>Participar do teste</strong>, se essa opção aparecer.</li></ol><div class="actions"><a class="btn secondary" href="https://groups.google.com/g/rmixapps" target="_blank" rel="noopener">1. Entrar no grupo de teste</a><a class="btn success" href="https://play.google.com/store/apps/details?id=br.com.timaco.app" target="_blank" rel="noopener">2. Baixar pela Play Store</a></div><div class="hint">O grupo RMix Apps é usado para qualquer aplicativo em fase de teste.</div></div>
+  </section>
+
+  <section id="rua-digital" class="view">
+    <div class="topbar"><button class="back" data-view="home">← Voltar</button><h2>Rua Digital</h2></div>
+    <div class="section-card"><h3>Para quem mora na região</h3><p>Encontre lojas, comércios, prestadores de serviço, eventos, notícias e influenciadores próximos do seu bairro e da sua região. A Rua Digital aproxima você de tudo que realmente acontece ao seu redor.</p></div>
+    <div class="section-card"><h3>Para comércios e prestadores</h3><p>Ganhe presença local para ser encontrado por quem realmente mora ou circula na região. Receba solicitações, acompanhe métricas, conecte-se com outros negócios e apareça em buscas e notificações dentro da plataforma.</p></div>
+    <div class="section-card"><h3>Acessar ou cadastrar</h3><div class="actions">
+      <a class="btn primary" href="https://orbia.rayaconnect.com.br" target="_blank" rel="noopener">Ver Rua Digital</a>
+      <a class="btn secondary" href="https://orbia.rayaconnect.com.br/conta?cadastro=1" target="_blank" rel="noopener">Cadastrar como usuário</a>
+      <a class="btn secondary" href="https://orbia.rayaconnect.com.br/conta?cadastro=1&negocio=1&tipo=commerce" target="_blank" rel="noopener">Cadastrar comércio</a>
+      <a class="btn secondary" href="https://orbia.rayaconnect.com.br/conta?cadastro=1&negocio=1&tipo=services" target="_blank" rel="noopener">Cadastrar prestador PJ</a>
+    </div><div class="hint">O link do aplicativo Rua Digital na Play Store poderá ser adicionado depois.</div></div>
+  </section>
+
+  <section id="pedir-app" class="view">
+    <div class="topbar"><button class="back" data-view="home">← Voltar</button><h2>Pedir seu app</h2></div>
+    <div class="form-card"><h3 style="margin-top:0">Conte sua ideia</h3><p style="color:var(--muted);margin-top:0">Preencha os dados abaixo. Ao enviar, será aberto seu aplicativo de e-mail com a solicitação pronta.</p>
+      <form id="appForm">
+        <label for="nome">Nome</label><input id="nome" required placeholder="Seu nome">
+        <label for="telefone">Telefone</label><input id="telefone" required placeholder="(22) 99999-9999">
+        <label for="email">E-mail</label><input id="email" type="email" required placeholder="voce@email.com">
+        <label for="descricao">Descrição do app</label><textarea id="descricao" required placeholder="Explique o que você quer que o aplicativo faça, para quem ele será usado e quais funções imagina."></textarea>
+        <div class="actions"><button class="btn primary" type="submit">Enviar solicitação</button></div>
+        <div class="hint">O e-mail de recebimento ainda precisa ser configurado.</div>
+      </form>
+    </div>
+  </section>
+  <footer>RayaConnect • Soluções Digitais</footer>
+</main>
+<script>
+const views=document.querySelectorAll('.view');
+function showView(id){views.forEach(v=>v.classList.toggle('active',v.id===id));window.scrollTo({top:0,behavior:'smooth'});if(location.hash!=='#'+id)history.replaceState(null,'',id==='home'?location.pathname:'#'+id)}
+document.querySelectorAll('[data-view]').forEach(el=>el.addEventListener('click',e=>{e.preventDefault();showView(el.dataset.view)}));
+const route=location.hash.replace('#','');if(['timaco','rua-digital','pedir-app'].includes(route))showView(route);
+document.getElementById('appForm').addEventListener('submit',function(e){e.preventDefault();const nome=document.getElementById('nome').value.trim(),telefone=document.getElementById('telefone').value.trim(),email=document.getElementById('email').value.trim(),descricao=document.getElementById('descricao').value.trim();const destinatario='SEUEMAIL@DOMINIO.COM';const subject=encodeURIComponent('Solicitação de aplicativo - '+nome);const body=encodeURIComponent('Nome: '+nome+'\nTelefone: '+telefone+'\nE-mail: '+email+'\n\nDescrição do aplicativo:\n'+descricao);window.location.href='mailto:'+destinatario+'?subject='+subject+'&body='+body});
+</script>
+</body>
+</html>
